@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -8,13 +8,13 @@ const Contact = () => {
         <a href ="https://www.google.com">Logo</a>
         <nav>
         <li>
-                    <Link to = "/">Home</Link>
+                    <NavLink to = "/">Home</NavLink>
                     </li>
                     <li>
-                    <Link to = "/about">About</Link>
+                    <NavLink to = "/about">About</NavLink>
                     </li>
                     <li>
-                    <Link to = "/contact">Contact</Link>
+                    <NavLink to = "/contact">Contact</NavLink>
                     </li>
         </nav>
     </header>
