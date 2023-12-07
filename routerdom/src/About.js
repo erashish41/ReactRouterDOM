@@ -1,13 +1,18 @@
 import React from 'react'
-import Header from './component/Header'
 
 const About = () => {
+
+  const goToContant = () => {
+    alert ("kida")
+  }
+
   return (
    <>
-    <Header />
     <section>
         <h2>About Page</h2>
+        <button onClick={() => {goToContant()}}>goto Contact Page</button>
     </section>
+
    </>
   )
 }
